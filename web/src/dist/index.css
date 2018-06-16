@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+fieldset {
+  margin: 1em;
+  border: solid 1px red;
+}
+.query-tile-container {
+  overflow-x: scroll;
+}
+.query-tile-container .query-tile {
+  display: inline-block;
+  padding: 5px;
+  background-color: lightgray;
+  min-width: 25em;
+  width: 20%;
+  margin-left: 10px;
+}
+.query-tile-container .query-tile p {
+  margin: 0;
+}
+.query-tile-container .query-tile.deteriorate {
+  background-color: #ef8f8f;
+}
+.query-tile-container .query-tile.improved {
+  background-color: #63e963;
+}
+.query-tile-container .query-tile:last-child {
+  margin-right: 10px;
+}
